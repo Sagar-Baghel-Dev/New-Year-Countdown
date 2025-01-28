@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    color: #e2e2e2;
+}
+
+h1{
+   text-align: center;
+   margin-top: 5vw;
+}
+
+.timer{
+    width: 60vw;
+    height: 40vw;
+    background-color: #e2e2e2;
+    margin: auto;
+    margin-top: 8vw;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.hours, .minutes, .seconds{
+    width: 15vw;
+    height: 25vw;
+    background-color: #333;
+    border-radius: 20px;
+}
