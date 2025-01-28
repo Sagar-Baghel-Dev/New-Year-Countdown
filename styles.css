@@ -9,11 +9,16 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.3em;
     color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vw;
+    padding: 8vw;
 }
 
 h1{
    text-align: center;
-   margin-top: 5vw;
 }
 
 .timer{
@@ -21,7 +26,6 @@ h1{
     height: 40vw;
     background-color: #e2e2e2;
     margin: auto;
-    margin-top: 8vw;
     border-radius: 15px;
     box-shadow: 1px 1px 10px 10px #555;
     display: flex;
@@ -35,4 +39,14 @@ h1{
     height: 25vw;
     background-color: #333;
     border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hh,#mm,#ss{
+    color: #555;
+    font-size: 10vw;
+
 }
