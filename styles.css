@@ -27,7 +27,7 @@ h1{
     background-color: #e2e2e2;
     margin: auto;
     border-radius: 15px;
-    box-shadow: 1px 1px 10px 10px #555;
+    box-shadow: 1px 1px 20px 10px #555;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 1px 1px 10px 2px #555;
 }
 
 #title{
@@ -54,5 +55,5 @@ h1{
 
 #dd,#hh,#mm,#ss{
     color: #e2e2e2;
-    font-size: 10vw;
+    font-size: 8vw;
 }
