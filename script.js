@@ -9,10 +9,16 @@ let x = setInterval(()=>{
     let minutes = document.getElementById("mm");
     let seconds = document.getElementById("ss");
 
-    let d = Math.floor(distance / (1000 * 60 * 60 * 24));
-    let h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let m =  Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let s = Math.floor((distance % (1000 * 60)) / 1000);
+    let d =0;
+    let h=0;
+    let m=0;
+    let s=0;
+    
+
+     d = Math.floor(distance / (1000 * 60 * 60 * 24));
+     h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+     m =  Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+     s = Math.floor((distance % (1000 * 60)) / 1000);
 
     days.innerHTML = d;
     hours.innerHTML = h;
