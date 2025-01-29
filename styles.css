@@ -13,12 +13,34 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10vw;
+    gap: 5vw;
     padding: 8vw;
 }
 
 h1{
    text-align: center;
+}
+
+#date{
+    width: 15vw;
+    height: 3vw;
+    background-color: #e2e2e2;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: #444;
+    box-shadow: 1px 1px 10px 2px #555;
+}
+
+#submit{
+    width: 10vw;
+    height: 3vw;
+    background-color: #e2e2e2;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: #444;
+    box-shadow: 1px 1px 10px 2px #555;
 }
 
 .timer{

@@ -1,4 +1,5 @@
-let countDownDate = new Date("Jan 1, 2026 00:00:00").getTime();
+function dateTime(){
+  let countDownDate = new Date(document.getElementById("date").value).getTime();
 
 let x = setInterval(()=>{
     let now = new Date().getTime();
@@ -23,3 +24,4 @@ let x = setInterval(()=>{
         document.getElementById("demo").innerHTML = "EXPIRED";
       }
 }, 1000);
+}
