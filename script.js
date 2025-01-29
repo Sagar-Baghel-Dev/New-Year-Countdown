@@ -1,7 +1,10 @@
 function dateTime(){
+  
   let countDownDate = new Date(document.getElementById("date").value).getTime();
- 
-    
+  document.getElementById("date").style.display="none";
+  document.getElementById("submit").style.display="none";
+  document.getElementById("reset").style.display="inline";    
+  
 let x = setInterval(()=>{
     let now = new Date().getTime();
     let distance = countDownDate - now ;
@@ -32,8 +35,14 @@ let x = setInterval(()=>{
       }
 }, 1000);
 
-d =0;
-h=0;
-m=0;
-s=0;
+
+// d =0;
+// h=0;
+// m=0;
+// s=0;
+
+}
+
+function pageReload(){
+  location.reload();
 }
